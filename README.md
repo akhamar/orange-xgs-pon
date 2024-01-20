@@ -19,7 +19,8 @@ Ceci explique la différence de quantité de VLAN rules. 13 VLAN rules pour eux,
 
 Hors, les VLAN 838 et 840 sont envoyés par l'OLT avant le VLAN 832. Le VLAN 832 se retrouve donc non mappé sur le bridge car étant la 19ème règle envoyé (au delà de 17). Il devient donc impossible de passer des trams sur le vlan832.
 
-<span style="color:red"> /!\ 95% des personnes avec une offre Orange sont donc concerné par ce souci. Le mod de l'ONU ayant été fini, celui-ci vous permettra d'avoir une ligne fonctionnel avec cet ONU /!\ </span>
+> [!warning]
+> /!\ 95% des personnes avec une offre Orange sont donc concerné par ce souci. Le mod de l'ONU ayant été fini, celui-ci vous permettra d'avoir une ligne fonctionnel avec cet ONU /!\
 
 
 ## Cas numéro 1 => vous n'avez pas l'option TV
@@ -68,7 +69,8 @@ Dans notre cas, ISP orange les commandes à faire sont les suivantes.
 
 ### Installation
 
-<span style="color:green">=> Dans le cas où vous n'êtes pas sûr d'avoir moins de 17 règles de vlan à mapper</span>
+> [!important]  
+> => Dans le cas où vous n'êtes pas sûr d'avoir moins de 17 règles de vlan à mapper
 
 ```
 ./fs_xgspon_mod.py install GPONXXXXXXXX orange SMBSXXXXXXXX
@@ -77,7 +79,8 @@ Dans notre cas, ISP orange les commandes à faire sont les suivantes.
 
 > reboot de l'ONU (press enter)
 
-<span style="color:orange">=> Dans le cas où vous êtes sûr d'avoir moins de 17 règles de vlan à mapper</span>
+> [!important]  
+> => Dans le cas où vous êtes sûr d'avoir moins de 17 règles de vlan à mapper
 
 ```
 ./fs_xgspon_mod.py install GPONXXXXXXXX orange SMBSXXXXXXXX --vlan_rules ""
@@ -257,7 +260,8 @@ C'est deux commande devraient permettre d'afficher le serial, vendor et hardware
 
 ### Persistance des modifications
 
-<span style="color:red"> /!\ A ne faire que si les étapes précédentes sont OK /!\ </span>
+> [!warning]
+> /!\ A ne faire que si les étapes précédentes sont OK /!\
 
 ```
 ./fs_xgspon_mod.py persist SMBSXXXXXXXX
@@ -268,7 +272,8 @@ C'est deux commande devraient permettre d'afficher le serial, vendor et hardware
 
 ### Cron pour rearm
 
-<span style="color:red"> /!\ A ne faire que si les étapes précédentes sont OK /!\ </span>
+> [!warning]
+> /!\ A ne faire que si les étapes précédentes sont OK /!\
 
 ```
 ./fs_xgspon_mod.py rearm SMBSXXXXXXXX
