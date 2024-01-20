@@ -57,7 +57,7 @@ La version 1.1 du mod est disponible ici : [rssor mod v1.1](https://github.com/r
 Les explications (English) sont disponible ici : [readme](https://github.com/rssor/fs_xgspon_mod/tree/test_bruteforce_and_orange_support)
 
 Il vous faudra connaitre le serial de l'ONU. Pour cela le plus simple est d'en faire la demande auprès de fs.com.
-Dans le cas ou vous auriez oublié, il existe un sous module au mod qui permet de trouvé ce serial en une 20ene de seconde (cf: Récupération du serial)
+Dans le cas ou vous auriez oublié, il existe un sous module au mod qui permet de trouvé ce serial en une 20ene de seconde ([Récupération du serial](#r%C3%A9cup%C3%A9ration-du-serial-brut-force))
 
 ## Installation du mod
 
