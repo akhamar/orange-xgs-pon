@@ -19,7 +19,7 @@ Ceci explique la différence de quantité de VLAN rules. 13 VLAN rules pour eux,
 
 Hors, les VLAN 838 et 840 sont envoyés par l'OLT avant le VLAN 832. Le VLAN 832 se retrouve donc non mappé sur le bridge car étant la 19ème règle envoyé (au delà de 17). Il devient donc impossible de passer des trams sur le vlan832.
 
-> [!warning]
+> [!note]
 > /!\ 95% des personnes avec une offre Orange sont donc concerné par ce souci. Le mod de l'ONU ayant été fini, celui-ci vous permettra d'avoir une ligne fonctionnel avec cet ONU /!\
 
 
