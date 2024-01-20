@@ -225,11 +225,11 @@ C'est deux commande devraient permettre d'afficher le serial, vendor et hardware
 /traffic/eth/show connect all
 ```
 
-> \$\$ US BRIDGE 65535 \$\$
+> US BRIDGE 65535
 >
 > ---------------------------------------------------------------
 >
-> < INDEX = 0, SLOT = 1, PORT = 4, VLANFILTER = 832 PRIFILTER = 0x1>
+> INDEX = 0, SLOT = 1, PORT = 4, VLANFILTER = 832 PRIFILTER = 0x1
 >
 >     VLAN MATCH : MATCH
 >
