@@ -302,7 +302,7 @@ MC220L  (l'ONU est accessible avec/sans fibre enfiché)
 
 # Remerciements
 
-rss (rssor)
-lama
+- rss (rssor)
+- lama
 
 PS: je ne répond pas aux mails, aux messages privés et je ne fais pas la cuisine à votre place.
