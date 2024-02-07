@@ -36,7 +36,8 @@ Il vous faudra donc faire un peu plus que de la simple configuration.
 
 # Résolution du problème
 
-Un mod + configuration de l'ONU ont/sont réalisé. Je donnerais plus d'info à ce sujet une fois stable.
+~~Un mod + configuration de l'ONU ont/sont réalisé. Je donnerais plus d'info à ce sujet une fois stable.~~
+Le mod est disponible et la marche à suivre renseigné ici.
 
 
 # Bonne pratique
