@@ -304,7 +304,8 @@ MC220L  (l'ONU est accessible avec/sans fibre enfiché)
 
 # OpenSense
 
-Ajout d'un tache cron pour ream le module.
+## Cron Job template
+Ajout d'un tache cron pour rearm le module.
 > `cd /usr/local/opnsense/service/conf/actions.d/`
 >
 > `nano actions_onu_rearm.conf`
@@ -324,6 +325,13 @@ Pour tester
 > `configctl -d onu_rearm reload SMBSXXXXXXXX`
 >
 > `tail -500f /var/log/configd/configd_YYYYMMDD.log`
+
+## Cron job usage
+Added a new cron task
+![image](https://github.com/akhamar/orange-xgs-pon/assets/32886437/61dd5c21-74fe-4b95-94a7-cad5f631aba8)
+
+![image](https://github.com/akhamar/orange-xgs-pon/assets/32886437/2061ddff-481e-470e-872e-eef234fa24eb)
+
 
 # Remerciements
 
