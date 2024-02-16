@@ -302,6 +302,29 @@ X710-DA2 (l'ONU n'est accessible que lorsque la fibre est enfiché)
 MC220L  (l'ONU est accessible avec/sans fibre enfiché)
 
 
+# OpenSense
+
+Ajout d'un tache cron pour ream le module.
+> `cd /usr/local/opnsense/service/conf/actions.d/`
+>
+> `nano actions_onu_rearm.conf`
+
+```
+[reload]
+command:/opt/onu/fs_xgspon_mod.py
+parameters:rearm %s
+type:script_output
+message:Rearm ONU (%s)
+description:Rearm ONU
+```
+
+> `service configd restart`
+
+Pour tester
+> `configctl -d onu_rearm reload SMBSXXXXXXXX`
+>
+> `tail -500f /var/log/configd/configd_YYYYMMDD.log`
+
 # Remerciements
 
 - rss (rssor)
