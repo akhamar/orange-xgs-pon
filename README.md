@@ -322,7 +322,7 @@ description:Rearm ONU
 > `service configd restart`
 
 Pour tester
-> `configctl -d onu_rearm reload SMBSXXXXXXXX`
+> `configctl -d onu_rearm reload GPONXXXXXXXX`
 >
 > `tail -500f /var/log/configd/configd_YYYYMMDD.log`
 
@@ -331,6 +331,7 @@ Ajout d'une nouvelle tache cron dans opnsense.
 
 ![image](https://github.com/akhamar/orange-xgs-pon/assets/32886437/61dd5c21-74fe-4b95-94a7-cad5f631aba8)
 
+La valeur a mettre est celle du serial d'origine GPONXXXXXXXX (et non SMBSXXXXXXXX comme sur la capture)
 ![image](https://github.com/akhamar/orange-xgs-pon/assets/32886437/2061ddff-481e-470e-872e-eef234fa24eb)
 
 
