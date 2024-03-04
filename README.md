@@ -295,11 +295,19 @@ sudo ./fs_xgspon_mod.py discoverserial_cig
 
 # Mise en pratique et matériel
 
-OpnSense
+Router:
+- OpnSense
+- Debian
 
-X710-DA2 (l'ONU n'est accessible que lorsque la fibre est enfiché)
+NIC:
+- X710-DA2 (l'ONU n'est accessible que lorsque la fibre est enfiché)
+- X520-DA1
+- X520-DA2
+- N20KJ [Broadcom 57810 S]
 
-MC220L  (l'ONU est accessible avec/sans fibre enfiché)
+Media converter:
+- MC220L v2.x (l'ONU est accessible avec/sans fibre enfiché)
+- MC220L v3.x (l'ONU est accessible avec fibre enfiché)
 
 
 # OpenSense
