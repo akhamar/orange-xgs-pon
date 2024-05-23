@@ -320,6 +320,7 @@ NIC:
 - X520-DA1
 - X520-DA2
 - N20KJ [Broadcom 57810 S]
+- Mellanox MT27710 [ConnectX-4 Lx]
 
 Media converter:
 - MC220L v2.x (l'ONU est accessible avec/sans fibre enfiché)
