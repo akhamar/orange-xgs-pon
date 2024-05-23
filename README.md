@@ -286,6 +286,22 @@ C'est deux commande devraient permettre d'afficher le serial, vendor et hardware
 Il s'agit ici de mettre en place un job cron pour rearm l'ONU. Ceci à pour but de re-armer le mod en cas de failsafe (double coupure de courant, 2 reboot rapide successif, ...). Dans mon cas, ce job est fait via opnsense toutes les 5mins.
 
 
+## Suppression du mod
+
+Entrez en mode shell puis supprimez le mod
+```bash
+./fs_xgspon_mod.py telnet SMBSXXXXXXXX
+
+/system/sh
+
+cd /mnt/rwdir
+
+rm setup.sh
+
+reboot
+```
+
+
 ## Récupération du serial (brut force)
 
 ```
