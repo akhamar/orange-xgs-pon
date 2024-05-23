@@ -55,8 +55,9 @@ Ce failsafe est encore en court d'amélioration.
 
 ## Liste des nécessaires
 
-La version 1.1 du mod est disponible ici : [rssor mod v1.1](https://github.com/rssor/fs_xgspon_mod/releases/tag/v1.1)
+La version 1.1 du mod est disponible ici : [rssor mod v1.3](https://github.com/rssor/fs_xgspon_mod/releases/download/v1.3/fs_xgspon_mod_release.tgz)
 Les explications (English) sont disponible ici : [readme](https://github.com/rssor/fs_xgspon_mod/tree/test_bruteforce_and_orange_support)
+Les explications (English) pour le mod en V1.3 sont disponible ici : [readme](https://github.com/rssor/fs_xgspon_mod)
 
 Il vous faudra connaitre le serial de l'ONU. Pour cela le plus simple est d'en faire la demande auprès de fs.com.
 Dans le cas ou vous auriez oublié, il existe un sous module au mod qui permet de trouvé ce serial en une 20ene de seconde ([Récupération du serial](#r%C3%A9cup%C3%A9ration-du-serial-brut-force))
