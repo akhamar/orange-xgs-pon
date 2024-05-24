@@ -14,7 +14,7 @@ The explanations (English) are available here: [readme](https://github.com/rssor
 The explanations (English) for the mod in V1.3 are available here: [readme](https://github.com/rssor/fs_xgspon_mod)
 
 You will need to know the ONU serial. The easiest way to do this is to request it from fs.com.
-In case you have forgotten, there is a sub-module in the mod which allows you to find this serial in 20 seconds ([Serial recovery](TODO))
+In case you have forgotten, there is a sub-module in the mod which allows you to find this serial in 20 seconds ([Serial recovery](https://akhamar.github.io/orange-xgs-pon/20_fs_onu/25_serial_recovery.html))
 
 # Installing the mod
 
