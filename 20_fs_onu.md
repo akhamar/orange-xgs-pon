@@ -49,3 +49,21 @@ Likewise, the ONU has a set of config files that allow these values ​​to be 
 
 An ONU must have a failsafe which allows you to return to the initial state in the event of a brick or bad configuration. The mod that is used to configure the ONU allows you to perform a factory reset of the ONU via a double power cycle of less than 30 to 120 seconds.
 This makes it possible to greatly limit unintentional bricks caused by poor handling. This also makes it easy to return the ONU to factory settings (just do a double power cycle of less than 120sec).
+
+
+# Material/Software validation
+
+Router:
+- OpnSense
+- Debian
+
+NIC:
+- X710-DA2 (ONU is only accessible when fiber is plugged in)
+- X520-DA1
+- X520-DA2
+- N20KJ [Broadcom 57810 S]
+- Mellanox MT27710 [ConnectX-4 Lx]
+
+Media converter:
+- MC220L v2.x (ONU is accessible with/without fiber plugged in)
+- MC220L v3.x (ONU is accessible with plugged fiber)

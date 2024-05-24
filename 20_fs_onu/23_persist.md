@@ -13,7 +13,7 @@ has_toc: false
 {: .warning }
 > Only do if the previous steps are OK
 
-```
+```bash
 ./fs_xgspon_mod.py persist SMBSXXXXXXXX
 ```
 

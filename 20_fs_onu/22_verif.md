@@ -12,14 +12,14 @@ has_toc: false
 
 ## Vendor, serial, hardware version
 
-```
+```bash
 ./fs_xgspon_mod.py telnet SMBSXXXXXXXX
 ```
 > Where `SMBSXXXXXXXX` is the livebox serial
 
 then
 
-```
+```bash
 /s/m/show 256
 /s/m/show 257
 ```
@@ -28,7 +28,7 @@ These two commands should make it possible to display the serial, vendor and har
 
 ## Reg status
 
-```
+```bash
 /traffic/pon/show onu
 ```
 > ------------------------- ONU INFO --------------------------
@@ -58,7 +58,7 @@ These two commands should make it possible to display the serial, vendor and har
 
 ## Status O5
 
-```
+```bash
 /traffic/pon/show link
 ```
 > ----------------- LINK STATE -----------------
@@ -70,7 +70,7 @@ These two commands should make it possible to display the serial, vendor and har
 
 ## VLAN
 
-```
+```bash
 /system/mib/show 506
 ```
 
@@ -143,7 +143,7 @@ These two commands should make it possible to display the serial, vendor and har
 
 ## VLAN Mapping
 
-```
+```bash
 /traffic/eth/show connect all
 ```
 

@@ -29,7 +29,7 @@ In our case, ISP orange the commands to do are as follows.
 {: .important }
 > => In case you are not sure if you have less than 17 vlan rules to map
 
-```
+```bash
 ./fs_xgspon_mod.py install GPONXXXXXXXX orange SMBSXXXXXXXX
 ```
 > Where `GPONXXXXXXXX` is the original ONU fs.com serial and `SMBSXXXXXXXX` is the livebox serial
@@ -39,7 +39,7 @@ In our case, ISP orange the commands to do are as follows.
 {: .important }
 > => In case you are sure you have less than 17 vlan rules to map
 
-```
+```bash
 ./fs_xgspon_mod.py install GPONXXXXXXXX orange SMBSXXXXXXXX --vlan_rules ""
 ```
 > Where `GPONXXXXXXXX` is the original ONU fs.com serial and `SMBSXXXXXXXX` is the livebox serial
