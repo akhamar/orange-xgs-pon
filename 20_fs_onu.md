@@ -10,9 +10,9 @@ has_toc: false
 
 The ONU FS (XGS-ONU-25-20NI) has a limit of 17 mappable VLANs on the bridge. This can therefore pose a problem in the case where the OLT goes back a quantity greater than 17 VLANs mapping.
 
-This UN can be found here: https://www.fs.com/fr/products/185594.html
+This UN can be found [here](https://www.fs.com/fr/products/185594.html)
 
-A set of sources on the ONU can be found here: https://hack-gpon.org/xgs/ont-fs-XGS-ONU-25-20NI/
+A set of sources on the ONU can be found [here](https://hack-gpon.org/xgs/ont-fs-XGS-ONU-25-20NI/)
 
 This is not a tutorial on how to make a DHCP request with prio 6 on VLAN832. The information is here only to configure an ONU so that it can receive traffic from the OLT and transmit.
 
