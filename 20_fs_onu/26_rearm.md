@@ -49,4 +49,7 @@ crontab -e
 ```bash
 # each 2 mins rearm ONU (only if ONU is in failsafe mode, otherwise can't access)
 */2 * * * * (echo "" && /bin/date && /opt/onu_fs/fs_xgspon_mod_release-v1.3/fs_xgspon_mod.py rearm GPONXXXXXXXX) >> /opt/onu_fs/rearm.log 2>&1
+
+# every monday at 22:00
+0 22 * * mon mv /opt/onu_fs/rearm.log /opt/onu_fs/rearm.log.1
 ```
