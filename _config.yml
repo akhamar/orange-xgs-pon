@@ -1,0 +1,26 @@
+title: Orange XGS-PON
+description: Bypass Orange XGS-PON.
+theme: just-the-docs
+
+url: https://akhamar.github.io/orange-xgs-pon/
+
+favicon_ico: "/assets/images/logo.png"
+
+#color_scheme: dark
+color_scheme: widerdark
+
+aux_links:
+  Main github: https://github.com/akhamar/orange-xgs-pon
+
+
+callouts:
+  warning:
+    title: /!\\ Warning
+    color: red
+  info:
+    #title: ! Info
+    color: blue
+  important:
+    title: \!! Important
+    color: yellow
+  
