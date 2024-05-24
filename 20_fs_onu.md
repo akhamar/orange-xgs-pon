@@ -27,7 +27,7 @@ This explains the difference in the quantity of VLAN rules. 13 VLAN rules for th
 
 However, VLANs 838 and 840 are sent by the OLT before VLAN 832. VLAN 832 is therefore not mapped on the bridge because it is the 19th rule sent (beyond 17). It therefore becomes impossible to pass frames on vlan832.
 
-> [!note]
+{: .info }
 > 95% of people with an Orange offer are therefore affected by this problem. The ONU mod having been finished, this will allow you to have a functional line with this ONU
 
 
