@@ -21,8 +21,8 @@ Added a cron job template to rearm the module.
 command:/opt/onu/fs_xgspon_mod.py
 parameters:rearm %s
 type:script_output
-message:Rearm UN (%s)
-description:Rearm UN
+message:Rearm ONU (%s)
+description:Rearm ONU
 ```
 
 > `service configd restart`

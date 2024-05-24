@@ -10,7 +10,7 @@ has_toc: false
 
 The ONU FS (XGS-ONU-25-20NI) has a limit of 17 mappable VLANs on the bridge. This can therefore pose a problem in the case where the OLT goes back a quantity greater than 17 VLANs mapping.
 
-This UN can be found [here](https://www.fs.com/fr/products/185594.html)
+This ONU can be found [here](https://www.fs.com/fr/products/185594.html)
 
 A set of sources on the ONU can be found [here](https://hack-gpon.org/xgs/ont-fs-XGS-ONU-25-20NI/)
 
