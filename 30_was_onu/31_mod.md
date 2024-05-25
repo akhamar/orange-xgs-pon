@@ -99,7 +99,9 @@ After a reboot of the ONU, you can verify that it as been upgraded to the commun
 
 # Verify
 
-Navigate to the ONU community interface. Use the credential above, matching your version, to login.
+Navigate to the ONU community interface. On the first connection, you will be asked to set a new `root` password.
+Please remember it, it will be important to configure the ONU later on.
+
 > [https://192.168.11.1](https://192.168.11.1)
 
-![image](https://raw.githubusercontent.com/akhamar/orange-xgs-pon/main/assets/images/was-110/WAS-110-00.png)
+![image](https://raw.githubusercontent.com/akhamar/orange-xgs-pon/main/assets/images/was-110/WAS-110-community-status.png)
