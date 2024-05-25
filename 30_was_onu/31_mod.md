@@ -14,7 +14,7 @@ Version 2.4.0 of the community firmware is available [here](https://github.com/d
 
 The explanations (English) are available here: [readme](https://github.com/djGrrr/8311-was-110-firmware-builder)
 
-You will need the ability to use 7zip (windows or linux) to extract the firmware and a console able to connect and transfert using an `ssh` command.
+You will need the ability to use 7zip (windows or linux) to extract the firmware and a console able to connect and transfert using an `ssh/scp` command.
 
 
 # Preparing the host
