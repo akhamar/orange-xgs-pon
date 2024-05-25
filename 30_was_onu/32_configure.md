@@ -10,11 +10,11 @@ has_toc: false
 
 # Configuring the ONU
 
-Navigate to the ONU community interface. And login.
+Navigate to the ONU community interface and login.
 
 > [https://192.168.11.1](https://192.168.11.1)
 
-On the menu and under 8311 go to configuration.
+On the menu and under `8311` go to `Configuration`.
 
 ![image](https://raw.githubusercontent.com/akhamar/orange-xgs-pon/main/assets/images/was-110/WAS-110-community-configuration.png)
 

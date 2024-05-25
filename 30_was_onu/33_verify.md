@@ -10,7 +10,7 @@ has_toc: false
 
 # Verify
 
-Navigate to the ONU community interface. And login.
+Navigate to the ONU community interface and login.
 
 > [https://192.168.11.1](https://192.168.11.1)
 
