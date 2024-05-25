@@ -12,7 +12,7 @@ has_toc: false
 
 Version 2.4.0 of the community firmware is available [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.4.0/WAS-110_8311_firmware_mod_2.4.0_basic.7z)
 
-The explanations (English) are available here: [readme](https://github.com/djGrrr/8311-was-110-firmware-builder)
+The explanations (English) are available [here](https://github.com/djGrrr/8311-was-110-firmware-builder)
 
 You will need the ability to use 7zip (windows or linux) to extract the firmware and a console able to connect and transfert using an `ssh/scp` command.
 
