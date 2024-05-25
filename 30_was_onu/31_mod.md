@@ -35,12 +35,14 @@ ping 192.168.11.1
 The original firmware login/password that come with the WAS-110 vary depending on the ONU version.
 
 > <= v1.0.20
+
 | Username | Password        |
 |:---------|:----------------|
 | admin    | QsCg@7249#5281  |
 | user     | user1234        |
 
 > v1.0.21
+
 | Username | Password        |
 |:---------|:----------------|
 | admin    | BR#22729%635e9  |
@@ -59,11 +61,13 @@ Navigate to the service controle panel to activate SSH. Use the credential above
 Extract the firmware
 
 > windows
+
 ```
 7z x WAS-110_8311_firmware_mod_<version>_basic.7z
 ```
 
 > linux
+
 ```
 7z x WAS-110_8311_firmware_mod_<version>_basic.7z
 ```
@@ -72,6 +76,7 @@ Extract the firmware
 # Installing the firmware
 
 > windows
+
 ```
 scp -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa local-upgrade.tar root@192.168.11.1:/tmp/
 ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa root@192.168.11.1 "tar xvf /tmp/local-upgrade.tar -C /tmp/ -- upgrade.sh && /tmp/upgrade.sh -y -r /tmp/local-upgrade.tar"
@@ -79,6 +84,7 @@ ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa root@192.168.
 
 
 > linux
+
 ```
 scp -O -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa local-upgrade.tar root@192.168.11.1:/tmp/
 ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa root@192.168.11.1 'tar xvf /tmp/local-upgrade.tar -C /tmp/ -- upgrade.sh && /tmp/upgrade.sh -y -r /tmp/local-upgrade.tar'
