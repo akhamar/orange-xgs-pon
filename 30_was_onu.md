@@ -8,7 +8,7 @@ has_toc: false
 
 # Introduction
 
-The WAS-110 firmware can be switched with a community firmware that allow a lot of customization and controle over the ONU.
+The WAS-110 firmware can be switched to a community firmware that allow a lot of customization and controle over the ONU.
 
 # Material/Software validation
 
