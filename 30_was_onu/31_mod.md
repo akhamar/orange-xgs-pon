@@ -50,8 +50,10 @@ The original firmware login/password that come with the WAS-110 vary depending o
 
 ## Configuring the ONU to accept SSH
 
-Navigate to the service controle panel to activate SSH. Use the credential above, matching your version, to login.
+Navigate to the service controle panel to activate SSH. Use the `admin` credential above, matching your version, to login on the ONU.
 > [https://192.168.11.1/html/main.html#service/servicecontrol](https://192.168.11.1/html/main.html#service/servicecontrol)
+
+Activate SSH and Save.
 
 ![image](https://raw.githubusercontent.com/akhamar/orange-xgs-pon/main/assets/images/was-110/WAS-110-SSH.png)
 
@@ -75,6 +77,8 @@ Extract the firmware
 
 # Installing the firmware
 
+In the folder where you extracted the community firmware, do the following.
+
 > windows
 
 ```
@@ -90,7 +94,7 @@ scp -O -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa local-upgr
 ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa root@192.168.11.1 'tar xvf /tmp/local-upgrade.tar -C /tmp/ -- upgrade.sh && /tmp/upgrade.sh -y -r /tmp/local-upgrade.tar'
 ```
 
-After a reboot of the ONU, you can verify that it as been upgraded.
+After a reboot of the ONU, you can verify that it as been upgraded to the community version.
 
 
 # Verify
