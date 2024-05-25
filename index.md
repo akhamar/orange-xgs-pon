@@ -10,8 +10,8 @@ This guide purpose, is to explain and show how to configure a XGS-PON ONU/ONT to
 
 {: .important }
 > All those steps are only available for two ONU/ONT.
-> - XGS-ONU-25-20NI (fs.com) [lien](https://www.fs.com/fr/products/185594.html)
-> - WAS-110 (azores) [lien](https://www.fibermall.com/sale-460693-xgspon-onu-sfp-stick.htm)
+> - XGS-ONU-25-20NI [CIG XG-99S] (fs.com) [lien](https://www.fs.com/fr/products/185594.html)
+> - WAS-110 [MaxLinear PRX126] (azores) [lien](https://www.fibermall.com/sale-460693-xgspon-onu-sfp-stick.htm)
 
 Special thanks to to [lama](https://github.com/palpaga) for the help on understanding the issues, [djGrrr](https://github.com/djGrrr) for the help on WAS-110 debug/troubleshot/community firmware and [rss](https://github.com/rssor) for his beautiful mod on the XGS-ONU-25-20NI ONU from fs.com
 
