@@ -121,7 +121,7 @@ Extract the table frome that and copy it.
 nano vlan_decode.cpp
 ```
 
-```bash
+```c++
 #include <iostream>
 #include <string>
 #include <vector>
@@ -184,7 +184,7 @@ while (std::getline(std::cin, input)) {
               << ((__builtin_bswap32(w[2]) & 0x000f0000) >> 16) << ",\t" << ((__builtin_bswap32(w[2]) & 0x0000fff8) >> 3) << ",\t"
               << (__builtin_bswap32(w[2]) & 0x00000007) << ",\t" << ((__builtin_bswap32(w[3]) & 0x000f0000) >> 16) << ",\t"
               << ((__builtin_bswap32(w[3]) & 0x0000fff8) >> 3) << ",\t" << (__builtin_bswap32(w[3]) & 0x00000007) << ")" << std::endl;
-/*    unsigned int n = ((__builtin_bswap32(*w) & 0xf0000000) >> 28);
+    /*unsigned int n = ((__builtin_bswap32(*w) & 0xf0000000) >> 28);
     std::cout << "Filter Outer Priority: ";
     output_priority(n);
     std::cout << std::endl;
