@@ -10,7 +10,9 @@ has_toc: false
 # List of essentials
 
 Version 1.3 of the mod is available here: [rssor mod v1.3](https://github.com/rssor/fs_xgspon_mod/releases/download/v1.3/fs_xgspon_mod_release.tgz)
+
 The explanations (English) are available here: [readme](https://github.com/rssor/fs_xgspon_mod/tree/test_bruteforce_and_orange_support)
+
 The explanations (English) for the mod in V1.3 are available here: [readme](https://github.com/rssor/fs_xgspon_mod)
 
 You will need to know the ONU serial. The easiest way to do this is to request it from fs.com.
