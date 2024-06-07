@@ -59,10 +59,14 @@ Router:
 
 NIC:
 - X710-DA2 (ONU is only accessible when fiber is plugged in)
+- XXV710-DA2
 - X520-DA1
 - X520-DA2
 - N20KJ [Broadcom 57810 S]
 - Mellanox MT27710 [ConnectX-4 Lx]
+
+Switch:
+- Probably any
 
 Media converter:
 - MC220L v2.x (ONU is accessible with/without fiber plugged in)
