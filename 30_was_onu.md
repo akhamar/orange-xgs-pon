@@ -17,8 +17,12 @@ Router:
 - Debian
 
 NIC:
-- X710-DA2
+- X710-DA2 (some seem to hjave issues, I didn't)
+- X520-xx
 - Mellanox MT27710 [ConnectX-4 Lx]
+
+Switch:
+- Probably any
 
 Media converter:
 - MC220L v2.x
