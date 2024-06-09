@@ -1,3 +1,9 @@
 @import "./color_schemes/dark";
 
 $content-width: 80rem;
+
+@for $i from 1 through 6 {
+    h#{7 - $i} {
+        fontsize: $i * 3.0em;
+    }
+}
