@@ -6,7 +6,7 @@ nav_order: 10
 has_toc: false
 ---
 
-This guide purpose, is to explain and show how to configure a XGS-PON ONU/ONT to by pass Orange.
+This guide purpose, is to explain and show how to configure either a ***XGS-PON ONU/ONT*** or a ***WAS-110 ONU/ONT*** to bypass Orange livebox.
 
 {: .important }
 > All those steps are only available for two ONU/ONT.
