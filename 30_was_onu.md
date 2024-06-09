@@ -12,9 +12,12 @@ The WAS-110 firmware can be switched to a community firmware that allow a lot of
 
 # Material/Software validation
 
-Router:
+Router (soft):
 - OpnSense
 - Debian
+
+Router (hardware):
+- tp-link er8411
 
 NIC:
 - X710-DA2 (some seem to hjave issues, I didn't)
