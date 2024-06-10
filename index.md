@@ -18,3 +18,6 @@ Special thanks to to [lama](https://github.com/palpaga) for the help on understa
 Also
 - [8311](https://pon.wiki)
 - [PON Madness](https://hackaday.io/project/194709-pon-madness-bypass-xgs-pon-ontswith-a-stick)
+
+
+{% t global.tagline %}
