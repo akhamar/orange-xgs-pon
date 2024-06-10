@@ -30,3 +30,6 @@ callouts:
 # Note: the main Just the Docs site does *not* use Google Analytics.
 ga_tracking: G-SEH27R8156
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+plugins:
+  - jekyll-multiple-languages-plugin
