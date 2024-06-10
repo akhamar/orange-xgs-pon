@@ -18,6 +18,7 @@ Router (soft):
 
 Router (hardware):
 - tp-link er8411
+- mikrotik CCR2004
 
 NIC:
 - X710-DA2 (some seem to hjave issues, I didn't)
