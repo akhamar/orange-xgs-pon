@@ -20,4 +20,6 @@ Also
 - [PON Madness](https://hackaday.io/project/194709-pon-madness-bypass-xgs-pon-ontswith-a-stick)
 
 
-{% t global.tagline %}
+<!--
+ {% t global.tagline %}
+-->
