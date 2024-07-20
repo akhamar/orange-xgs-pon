@@ -21,7 +21,7 @@ Router (hardware):
 - mikrotik CCR2004
 
 NIC:
-- X710-DA2 (some seem to hjave issues, I didn't)
+- X710-DA2 (some seem to have issues, I didn't)
 - X520-xx
 - Mellanox MT27710 [ConnectX-4 Lx]
 
