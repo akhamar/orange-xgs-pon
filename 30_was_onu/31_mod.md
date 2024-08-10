@@ -47,7 +47,7 @@ The original firmware login/password that come with the WAS-110 vary depending o
 | admin    | QsCg@7249#5281  |
 | user     | user1234        |
 
-> v1.0.21
+> v1.0.21+
 
 | Username | Password        |
 |:---------|:----------------|
@@ -64,7 +64,7 @@ The original firmware login/password that come with the WAS-110 vary depending o
 |:---------|:----------------|
 | root     | QpZm@4246#5753  |
 
-> v1.0.21
+> v1.0.21+
 
 `The root password is undisclosed at this time, use the suggested exploit below to gain root privileges`
 
