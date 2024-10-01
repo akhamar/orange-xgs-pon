@@ -48,14 +48,14 @@ The original firmware login/password that come with the WAS-110 vary depending o
 > <= v1.0.20
 
 | Username | Password        |
-|:---------|:----------------|
+|----------|-----------------|
 | admin    | QsCg@7249#5281  |
 | user     | user1234        |
 
 > v1.0.21+
 
 | Username | Password        |
-|:---------|:----------------|
+|----------|-----------------|
 | admin    | BR#22729%635e9  |
 | user     | user1234        |
 
@@ -66,7 +66,7 @@ The original firmware login/password that come with the WAS-110 vary depending o
 > <= v1.0.20
 
 | Username | Password        |
-|:---------|:----------------|
+|----------|-----------------|
 | root     | QpZm@4246#5753  |
 
 > v1.0.21+
