@@ -27,7 +27,8 @@ Router (hardware):
 
 {: .warning }
 > Do not use any NIC to host the ONU as above 7800-8000Mbps the ONU will draw too much power and enter a deep emergency lock state.
-> Use a switch instead using trunk vlan832
+> 
+> Use a switch instead (using trunk vlan832)
 
 Switch:
 - Probably any
