@@ -20,10 +20,13 @@ Router (hardware):
 - tp-link er8411
 - mikrotik CCR2004
 
-NIC:
-- X710-DA2 (some seem to have issues, I didn't)
-- X520-xx
-- Mellanox MT27710 [ConnectX-4 Lx]
+~~NIC:~~
+- ~~X710-DA2 (some seem to have issues, I didn't)~~
+- ~~X520-xx~~
+- ~~Mellanox MT27710 [ConnectX-4 Lx]~~
+{: .warn }
+> Do not use any NIC to host the ONU as above 7800-8000Mbps the ONU will draw too much power and enter a deep emergency lock state.
+> Use a switch instead using trunk vlan832
 
 Switch:
 - Probably any
