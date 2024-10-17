@@ -24,7 +24,7 @@ Router (hardware):
 - ~~X710-DA2 (some seem to have issues, I didn't)~~
 - ~~X520-xx~~
 - ~~Mellanox MT27710 [ConnectX-4 Lx]~~
-{: .warn }
+{: .warning }
 > Do not use any NIC to host the ONU as above 7800-8000Mbps the ONU will draw too much power and enter a deep emergency lock state.
 > Use a switch instead using trunk vlan832
 
