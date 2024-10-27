@@ -18,6 +18,7 @@ Available version of the firmware
 | 2.5.1   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.5.1/WAS-110_8311_firmware_mod_2.5.1_basic.7z)  |
 | 2.6.5   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.6.5/WAS-110_8311_firmware_mod_v2.6.5_basic.7z) |
 | 2.7.0   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.7.0/WAS-110_8311_firmware_mod_v2.7.0_basic.7z) |
+| 2.7.2   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.7.2/WAS-110_8311_firmware_mod_v2.7.2_basic.7z) |
 
 
 The explanations and original github repository are available [here](https://github.com/djGrrr/8311-was-110-firmware-builder)
