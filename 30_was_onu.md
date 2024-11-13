@@ -15,10 +15,12 @@ The WAS-110 firmware can be switched to a community firmware that allow a lot of
 Router (soft):
 - OpnSense
 - Debian
+- OpenWrt
 
 Router (hardware):
 - tp-link er8411
 - mikrotik CCR2004
+- Banana Pi BPI-R4
 
 ~~NIC:~~
 - ~~X710-DA2 (some seem to have issues, I didn't)~~
