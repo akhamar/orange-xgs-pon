@@ -26,7 +26,7 @@ Also
 [CIG XG-99S](https://akhamar.github.io/orange-xgs-pon/20_fs_onu.html)
 
 # How to use/configure WAS-110 stick
-[CIG XG-99S](https://akhamar.github.io/orange-xgs-pon/30_was_onu.html)
+[MaxLinear PRX126](https://akhamar.github.io/orange-xgs-pon/30_was_onu.html)
 
 
 
