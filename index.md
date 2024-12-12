@@ -6,6 +6,7 @@ nav_order: 10
 has_toc: false
 ---
 
+# Informations
 This guide purpose, is to explain and show how to configure a ***XGS-PON ONU/ONT Module*** to bypass Orange livebox.
 
 {: .important }
