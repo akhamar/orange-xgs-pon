@@ -18,6 +18,11 @@ This guide explains how to configure an **XGS-PON ONU/ONT module** to bypass Ora
 | WAS-110         | MaxLinear PRX126 | Azores       | - [fibermall.com](https://www.fibermall.com/sale-460693-xgspon-onu-sfp-stick.htm)<br>- [aliexpress (chose 8311 Version)](https://www.aliexpress.us/item/1005007856556526.html?gatewayAdapt=4itemAdapt) |
 | LXE-010X-A      | Realtek RTL9615C | Leox         | - [leolabs.pl](https://www.leolabs.pl/ont-leox-lxe-010x-a.html)                                                                                                                                        |
 
+## Recommendations
+I strongly recommand the **WAS-110** with the custom firmware 8311 as it's the most advanced ONU of all, which allow a better support, as well as also massively tested against many different ISP and in many country with a huge base of users using it successfuly.
+
+The custom firmware is actively worked on with addons, features, corrections and support added all the time.
+
 ## Special thanks
 - [lama](https://github.com/palpaga) for assistance in understanding the issues.
 - [djGrrr](https://github.com/djGrrr) for help with WAS-110 debugging, troubleshooting, and community firmware.
