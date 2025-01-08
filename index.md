@@ -12,11 +12,11 @@ This guide explains how to configure an **XGS-PON ONU/ONT module** to bypass Ora
 {: .important }
 > These steps are only compatible with the three ONU/ONT models listed below. Other models were tested but do not work properly for Orange Livebox bypass.
 
-| Model           | Chipset          | Manufacturer | Order link                                                                      |
-|-----------------|------------------|--------------|---------------------------------------------------------------------------------|
-| XGS-ONU-25-20NI | CIG XG-99S       | FS.com       | [fs.com](https://www.fs.com/fr/products/185594.html)                            |
-| WAS-110         | MaxLinear PRX126 | Azores       | [fibermall.com](https://www.fibermall.com/sale-460693-xgspon-onu-sfp-stick.htm) |
-| LXE-010X-A      | Realtek RTL9615C | Leox         | [leolabs.pl](https://www.leolabs.pl/ont-leox-lxe-010x-a.html)                   |
+| Model           | Chipset          | Manufacturer | Order link                                                                                                                                                                                             |
+|-----------------|------------------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| XGS-ONU-25-20NI | CIG XG-99S       | FS.com       | - [fs.com](https://www.fs.com/fr/products/185594.html)                                                                                                                                                 |
+| WAS-110         | MaxLinear PRX126 | Azores       | - [fibermall.com](https://www.fibermall.com/sale-460693-xgspon-onu-sfp-stick.htm)<br>- [aliexpress (chose 8311 Version)](https://www.aliexpress.us/item/1005007856556526.html?gatewayAdapt=4itemAdapt) |
+| LXE-010X-A      | Realtek RTL9615C | Leox         | - [leolabs.pl](https://www.leolabs.pl/ont-leox-lxe-010x-a.html)                                                                                                                                        |
 
 ## Special thanks
 - [lama](https://github.com/palpaga) for assistance in understanding the issues.
