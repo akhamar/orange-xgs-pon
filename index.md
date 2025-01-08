@@ -6,30 +6,31 @@ nav_order: 10
 has_toc: false
 ---
 
-# Informations
-This guide purpose, is to explain and show how to configure a ***XGS-PON ONU/ONT Module*** to bypass Orange livebox.
+# Overview
+This guide explains how to configure an **XGS-PON ONU/ONT module** to bypass Orange Livebox.
 
 {: .important }
-> All those steps are only available for two ONU/ONT.
+> These steps are only compatible with the three ONU/ONT models listed below. Other models were tested but do not work properly for Orange Livebox bypass.
 
-| Model           | Chipset          | Manufacturer | Order link                                                             |
-|-----------------|------------------|--------------|------------------------------------------------------------------------|
-| XGS-ONU-25-20NI | CIG XG-99S       | fs.com       | [link](https://www.fs.com/fr/products/185594.html)                     |
-| WAS-110         | MaxLinear PRX126 | azores       | [link](https://www.fibermall.com/sale-460693-xgspon-onu-sfp-stick.htm) |
+| Model           | Chipset          | Manufacturer | Order link                                                                      |
+|-----------------|------------------|--------------|---------------------------------------------------------------------------------|
+| XGS-ONU-25-20NI | CIG XG-99S       | FS.com       | [fs.com](https://www.fs.com/fr/products/185594.html)                            |
+| WAS-110         | MaxLinear PRX126 | Azores       | [fibermall.com](https://www.fibermall.com/sale-460693-xgspon-onu-sfp-stick.htm) |
+| LXE-010X-A      | Realtek RTL9615C | Leox         | [leolabs.pl](https://www.leolabs.pl/ont-leox-lxe-010x-a.html)                   |
 
-Special thanks to to [lama](https://github.com/palpaga) for the help on understanding the issues, [djGrrr](https://github.com/djGrrr) for the help on WAS-110 debug/troubleshot/community firmware and [rss](https://github.com/rssor) for his beautiful mod on the XGS-ONU-25-20NI ONU from fs.com
+## Special thanks
+- [lama](https://github.com/palpaga) for assistance in understanding the issues.
+- [djGrrr](https://github.com/djGrrr) for help with WAS-110 debugging, troubleshooting, and community firmware.
+- [rss](https://github.com/rssor) for the beautiful mod on the XGS-ONU-25-20NI ONU from fs.com.
 
-Also
+## Additional resources
 - [8311](https://pon.wiki)
 - [PON Madness](https://hackaday.io/project/194709-pon-madness-bypass-xgs-pon-ontswith-a-stick)
 
-# How to use/configure FS stick
-[CIG XG-99S](https://akhamar.github.io/orange-xgs-pon/20_fs_onu.html)
-
-# How to use/configure WAS-110 stick
-[MaxLinear PRX126](https://akhamar.github.io/orange-xgs-pon/30_was_onu.html)
-
-
+# Configuration guides
+- FS [XGS-ONU-25-20NI](20_fs_onu.html) (CIG XG-99S)
+- Azores [WAS-110](30_was_onu.html) (MaxLinear PRX126)
+- Leox [LXE-010X-A](40_leox_ont.html) (Realtek RTL9615C)
 
 <!--
  {% t global.tagline %}
