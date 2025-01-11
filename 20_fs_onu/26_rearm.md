@@ -7,6 +7,12 @@ nav_order: 26
 has_toc: false
 ---
 
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 {: .info }
 > A rearm method is needed to reconfigure the ONU to keep using the modification in case of an unintentional double power failure or a double reboot of the host.
 >
