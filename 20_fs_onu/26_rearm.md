@@ -7,18 +7,18 @@ nav_order: 26
 has_toc: false
 ---
 
-# Table of Contents
-{: .no_toc }
-
-- TOC
-{:toc}
-
 {: .info }
 > A rearm method is needed to reconfigure the ONU to keep using the modification in case of an unintentional double power failure or a double reboot of the host.
 >
 > After a fail safe the ONU will reconfigure itself in the default factory state. To be able to communicate with it, you will have to use the original serial number.
 > 
 > Bellow are examples of what can be done.
+
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
 
 # OpnSense
 
