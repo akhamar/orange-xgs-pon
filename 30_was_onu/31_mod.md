@@ -10,7 +10,7 @@ has_toc: false
 # Table of Contents
 {: .no_toc }
 
-1. TOC
+- TOC
 {:toc}
 
 # List of essentials
