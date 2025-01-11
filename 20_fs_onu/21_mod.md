@@ -7,6 +7,12 @@ nav_order: 21
 has_toc: false
 ---
 
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 # List of essentials
 
 Version 1.3 of the mod is available here: [rssor mod v1.3](https://github.com/rssor/fs_xgspon_mod/releases/download/v1.3/fs_xgspon_mod_release.tgz)
