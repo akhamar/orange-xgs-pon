@@ -7,7 +7,13 @@ nav_order: 24
 has_toc: false
 ---
 
-## Removing the mod
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
+# Removing the mod
 
 Enter shell mode then remove the mod
 ```bash
