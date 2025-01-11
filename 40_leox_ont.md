@@ -6,6 +6,12 @@ nav_order: 40
 has_toc: false
 ---
 
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 # Introduction
 
 The **Leox LXE-010X-A** is a budget-friendly external Optical Network Terminal (ONT) priced at approximately €120 (VAT and shipping included, late 2024). It connects to your router via a 10GbE copper (10GBASE-T) interface, offering great value despite its external design.
