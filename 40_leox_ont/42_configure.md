@@ -7,6 +7,12 @@ nav_order: 42
 has_toc: false
 ---
 
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 # Backing up
 
 Before flashing new parameters, save the current (factory) configuration as a backup. This precaution ensures you can restore the original settings if needed.
