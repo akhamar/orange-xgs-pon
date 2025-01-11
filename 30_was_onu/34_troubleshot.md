@@ -7,6 +7,11 @@ nav_order: 34
 has_toc: false
 ---
 
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
 
 # Verify your VLANs
 
