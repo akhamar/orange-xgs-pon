@@ -7,6 +7,7 @@ nav_order: 31
 has_toc: false
 ---
 
+{:toc}
 
 # List of essentials
 
