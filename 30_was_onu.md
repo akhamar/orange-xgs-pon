@@ -6,6 +6,12 @@ nav_order: 30
 has_toc: false
 ---
 
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 # Introduction
 
 The WAS-110 firmware can be switched to a community firmware that allow a lot of customization and controle over the ONU.
