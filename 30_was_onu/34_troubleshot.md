@@ -10,6 +10,9 @@ has_toc: false
 
 # Verify your VLANs
 
+{: .info }
+> This is now directly available on the ONU http interface starting `2.7.0+` version of the firmware.
+
 ## Extract VLANs data
 
 You will need to `ssh` to the ONU first.

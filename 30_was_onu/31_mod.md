@@ -10,9 +10,16 @@ has_toc: false
 
 # List of essentials
 
-Version 2.4.0 of the community firmware is available [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.4.0/WAS-110_8311_firmware_mod_2.4.0_basic.7z)
+Available version of the firmware
 
-Version 2.5.1 of the community firmware is available [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.5.1/WAS-110_8311_firmware_mod_2.5.1_basic.7z)
+| Version | Link                                                                                                                               |
+|---------|------------------------------------------------------------------------------------------------------------------------------------|
+| 2.4.0   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.4.0/WAS-110_8311_firmware_mod_2.4.0_basic.7z)  |
+| 2.5.1   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.5.1/WAS-110_8311_firmware_mod_2.5.1_basic.7z)  |
+| 2.6.5   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.6.5/WAS-110_8311_firmware_mod_v2.6.5_basic.7z) |
+| 2.7.0   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.7.0/WAS-110_8311_firmware_mod_v2.7.0_basic.7z) |
+| 2.7.2   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.7.2/WAS-110_8311_firmware_mod_v2.7.2_basic.7z) |
+| 2.8.0   | [here](https://github.com/djGrrr/8311-was-110-firmware-builder/releases/download/v2.8.0/WAS-110_8311_firmware_mod_v2.8.0_basic.7z) |
 
 
 The explanations and original github repository are available [here](https://github.com/djGrrr/8311-was-110-firmware-builder)
@@ -43,14 +50,14 @@ The original firmware login/password that come with the WAS-110 vary depending o
 > <= v1.0.20
 
 | Username | Password        |
-|:---------|:----------------|
+|----------|-----------------|
 | admin    | QsCg@7249#5281  |
 | user     | user1234        |
 
 > v1.0.21+
 
 | Username | Password        |
-|:---------|:----------------|
+|----------|-----------------|
 | admin    | BR#22729%635e9  |
 | user     | user1234        |
 
@@ -61,7 +68,7 @@ The original firmware login/password that come with the WAS-110 vary depending o
 > <= v1.0.20
 
 | Username | Password        |
-|:---------|:----------------|
+|----------|-----------------|
 | root     | QpZm@4246#5753  |
 
 > v1.0.21+
@@ -105,15 +112,22 @@ Extract the firmware
 
 In the folder where you extracted the community firmware, do the following.
 
-> windows
+## windows
 
+> Prior to Windows 11 Build 22631.4391 (KB5044380) and Windows 10 Build 19045.5073 (KB5045594)
 ```
 scp -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa local-upgrade.tar root@192.168.11.1:/tmp/
 ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa root@192.168.11.1 "tar xvf /tmp/local-upgrade.tar -C /tmp/ -- upgrade.sh && /tmp/upgrade.sh -y -r /tmp/local-upgrade.tar"
 ```
 
+> New Windows build
+```
+scp -O -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa local-upgrade.tar root@192.168.11.1:/tmp/
+ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa root@192.168.11.1 "tar xvf /tmp/local-upgrade.tar -C /tmp/ -- upgrade.sh && /tmp/upgrade.sh -y -r /tmp/local-upgrade.tar"
+```
 
-> linux
+
+## linux
 
 ```
 scp -O -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa local-upgrade.tar root@192.168.11.1:/tmp/

@@ -57,13 +57,18 @@ Router:
 - OpnSense
 - Debian
 
-NIC:
-- X710-DA2 (ONU is only accessible when fiber is plugged in)
-- XXV710-DA2
-- X520-DA1
-- X520-DA2
-- N20KJ [Broadcom 57810 S]
-- Mellanox MT27710 [ConnectX-4 Lx]
+~~NIC:~~
+- ~~X710-DA2 (ONU is only accessible when fiber is plugged in)~~
+- ~~XXV710-DA2~~
+- ~~X520-DA1~~
+- ~~X520-DA2~~
+- ~~N20KJ [Broadcom 57810 S]~~
+- ~~Mellanox MT27710 [ConnectX-4 Lx]~~
+  
+{: .warning }
+> Do not use any NIC to host the ONU as above 7800-8000Mbps the ONU will draw too much power and enter a deep emergency lock state.
+> 
+> Use a switch instead (using trunk vlan832)
 
 Switch:
 - Probably any
