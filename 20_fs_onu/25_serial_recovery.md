@@ -7,6 +7,12 @@ nav_order: 25
 has_toc: false
 ---
 
+# Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 # Recovery of the serial (brut force)
 
 ```bash
