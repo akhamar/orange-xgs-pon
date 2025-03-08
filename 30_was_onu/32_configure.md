@@ -13,6 +13,14 @@ has_toc: false
 - TOC
 {:toc}
 
+
+# Livebox 7 Values
+
+You will find the needed values under the box.
+
+![image](https://raw.githubusercontent.com/akhamar/orange-xgs-pon/refs/heads/main/assets/images/was-110/WAS-110-community-configuration-LB7.png)
+
+
 # Configuring the ONU
 
 Navigate to the ONU community interface and login.
@@ -22,12 +30,6 @@ Navigate to the ONU community interface and login.
 On the menu and under `8311` go to `Configuration`.
 
 ![image](https://raw.githubusercontent.com/akhamar/orange-xgs-pon/main/assets/images/was-110/WAS-110-community-configuration.png)
-
-## Livebox 7 Values
-
-You will find the needed values under the box.
-
-![image](https://raw.githubusercontent.com/akhamar/orange-xgs-pon/refs/heads/main/assets/images/was-110/WAS-110-community-configuration-LB7.png)
 
 ## PON
 
