@@ -28,15 +28,17 @@ Router (hardware):
 - mikrotik CCR2004
 - Banana Pi BPI-R4
 
-~~NIC:~~
-- ~~X710-DA2 (some seem to have issues, I didn't)~~
-- ~~X520-xx~~
-- ~~Mellanox MT27710 [ConnectX-4 Lx]~~
+NIC:
+- Do not use any NIC at all, period. None will be compatible.
 
 {: .warning }
 > Do not use any NIC to host the ONU as above 7800-8000Mbps the ONU will draw too much power and enter a deep emergency lock state.
 > 
 > Use a switch instead (using trunk vlan832)
+>
+> For more explanation as the why:
+> - The module can draw up to 3W which is more than the SFP+ spec (2W - Power level III). The module is using a class IV for the power level (spec SFF-8472/SFF-8431).
+> - This can lead to the module crashing and going in O7 state. This will make the module blast on the PON tree, and might even lead to your ISP needed to investigate.
 
 Switch:
 - Probably any
